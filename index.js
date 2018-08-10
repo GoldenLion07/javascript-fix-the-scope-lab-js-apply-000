@@ -19,7 +19,7 @@ function add2(n) {
   const two = 2
   return n + two
 }
-//const is th
+//in hte add2(n) function you could use either var, const, or let.
 var funkyFunction = function() {
   return function() {
     return "FUNKY!"
