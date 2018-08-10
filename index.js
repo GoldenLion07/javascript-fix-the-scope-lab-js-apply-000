@@ -30,4 +30,5 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()();
 
+//Relationship between both the outer function and inner function. The first funkyFunction calls the outer function, to call the inner vunction a 2nd parenthesis returns the value "FUNKY!"
 
