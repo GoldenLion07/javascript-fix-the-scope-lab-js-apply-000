@@ -11,7 +11,7 @@ function yourAnimal() {
   let animal = 'cat'
   return animal
 }
-//local scope, I used let because I needed to reassign the global variable.
+//local scope, I used let because I needed to reassign the global variable. In this one instance, I wanted the animal to represent a 'cat' thus I chose let.
 function add2(n) {
   
 
@@ -19,7 +19,7 @@ function add2(n) {
   const two = 2
   return n + two
 }
-//in hte add2(n) function you could use either var, const, or let.
+//in the add2(n) function you could use either var, const, or let. 
 var funkyFunction = function() {
   return function() {
     return "FUNKY!"
