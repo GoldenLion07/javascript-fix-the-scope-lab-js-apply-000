@@ -11,7 +11,7 @@ function yourAnimal() {
   let animal = 'cat'
   return animal
 }
-//local scope,\ 
+//local scope, I used let because I needed to reassign the global variable.
 function add2(n) {
   
 
