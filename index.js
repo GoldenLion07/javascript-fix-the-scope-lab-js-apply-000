@@ -1,9 +1,9 @@
 var animal = 'dog'
-
+//animal is a global variable. 
 function myAnimal() {
   return animal
 }
-
+//first function returns just 'dog'
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
@@ -11,7 +11,7 @@ function yourAnimal() {
   var animal = 'cat'
   return animal
 }
-
+//local scope,\ 
 function add2(n) {
   
 
